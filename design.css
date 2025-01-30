@@ -13,3 +13,15 @@
 .bg-card{
     background-color: rgb(249, 223, 138);
 }
+.secendary-bg{
+    background-color: rgb(255, 249, 244);
+}
+.squar-box{
+    background-color: rgb(249, 223, 138);
+}
+.squar-box{
+    background-image: url("./c1-assets/cute-pet-small.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+}
