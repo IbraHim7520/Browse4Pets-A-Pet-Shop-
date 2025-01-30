@@ -4,3 +4,9 @@
 .adlam-font{
     font-family: "ADLaM Display";
 }
+.bg-image-header{
+    background-image: url("./c1-assets/cat-big.png");
+}
+.nav-color{
+    background-color: #FFF9F4;
+}
