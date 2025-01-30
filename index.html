@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/0304c77b13.js" crossorigin="anonymous"></script>
+    <title>Browse4Pets</title>
+</head>
+<body>
+    <div class="w-full flex items-center justify-between  md:w-full mt-3 lg:w-3/4 m-auto "> <!-- Main nav div -->
+      <img src="./c1-assets/logo-header.png" class=" ml-5 lg:m-0" alt=""> <!--Nab div one side image-->
+
+      <div class="hidden lg:flex justify-between w-full items-center "> <!--  secend nav div because when screen will be small this div will hide -->
+        <div> <!-- logo div -->
+          <h1 class="md:font-bold text-xl">Browse<span class="md:text-yellow-500">4</span>Pets</h1>
+        </div>
+
+        <div class="flex items-center"> <!-- menu items div  -->
+          <ul class="flex items-center justify-center gap-5 text-xl">
+            <li>Find a Pet</li>
+            <li>breeds</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="flex items-center justify-center gap-5 text-xl"> <!--  icons and button div -->
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <button class="btn bg-transparent border-yellow-400">Login</button>
+          <button class="btn bg-yellow-400 border-none">Regestar</button>
+        </div>
+      </div>
+
+      <div class="flex mr-5 lg:hidden text-xl "> <!-- this div is for 1st div so that when device will small for phone this will be visible  -->
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <!-- ========================================Done Navbar Section with full responsiveness========================================== -->
+
+
+</body>
+</html>
